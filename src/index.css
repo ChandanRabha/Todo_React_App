@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: rebeccapurple;
+}
+#root{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

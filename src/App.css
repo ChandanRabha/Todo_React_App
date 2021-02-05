@@ -1,0 +1,35 @@
+.App{
+    text-align: center;
+    /* width: 100vh; */
+    margin: 5vh auto 0 auto; 
+    border: 1px solid grey;
+    padding: 2vh;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background: linear-gradient(137deg, #264386, #d0512b8f);
+
+}
+button{
+    padding:7px;
+    /* width:100px; */
+    border-radius:5px;
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+    border:none;
+    color:white;
+    background: rgba(255, 255, 255, 0);
+}
+button:hover{
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+input,select{
+    padding: 5px;
+    font-size:20px;
+    border:none;
+}
+input:focus,select:focus{
+    outline:none;
+}
